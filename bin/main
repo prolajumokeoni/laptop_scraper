@@ -1,14 +1,15 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative '../lib/hotel'
+require_relative '../lib/laptop'
 
-hotel = Hotel.new
-name = hotel.hotel_names
-prices = hotel.discount_prices
+laptop = Laptop.new
+name = laptop.name
+price = laptop.price
+review = laptop.review
 
-(0...prices.size).each do |index|
-  puts "--- index: #{index + 1} ---"
-  puts
-  puts "Hotel name #{name[index]} | Review #{prices[index]}"
+(0...price.size).each do |index|
+  puts "--- Laptop: #{index + 1} --- "
+  puts "Laptop spec: #{name[index]} | Current price ==> #{price[index]}"
+  puts "--- Stars received from reviewers: #{review[index]} ---"
 end
