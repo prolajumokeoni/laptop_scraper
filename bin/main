@@ -1,2 +1,14 @@
 #!/usr/bin/env ruby
-puts "hello"
+# frozen_string_literal: true
+
+require_relative '../lib/hotel'
+
+hotel = Hotel.new
+name = hotel.hotel_names
+prices = hotel.discount_prices
+
+(0...prices.size).each do |index|
+  puts "--- index: #{index + 1} ---"
+  puts
+  puts "Hotel name #{name[index]} | Review #{prices[index]}"
+end
