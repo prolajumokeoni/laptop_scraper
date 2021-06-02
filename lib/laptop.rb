@@ -1,3 +1,4 @@
+# Disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 require 'httparty'

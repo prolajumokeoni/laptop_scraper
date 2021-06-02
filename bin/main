@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# Disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 require_relative '../lib/laptop'
