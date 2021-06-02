@@ -4,7 +4,7 @@ require 'httparty'
 require 'nokogiri'
 
 class Laptop
-  attr_accessor :parse_page
+  attr_reader :parse_page
   def initialize
     doc = HTTParty.get('https://www.jumia.com.ng/laptops/')
     @parse_page ||= Nokogiri::HTML(doc.body)

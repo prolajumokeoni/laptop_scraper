@@ -1,6 +1,6 @@
 # laptop_scraper
 A scraper developed in Ruby. 
-Built a scrapper to extract information of laptops; specs prices & reviews from [jumia](https://www.jumia.com.ng/laptops/) an online shopping site
+Built a scrapper to extract information of laptops; specs prices & reviews from [jumia,](https://www.jumia.com.ng/laptops/) an online shopping site.
 
 ## Gems 
 - HTTParty
@@ -13,12 +13,11 @@ Built a scrapper to extract information of laptops; specs prices & reviews from 
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
-- Go to hhttps://github.com/prolajumokeoni/laptop_scraper.git
+- Go to https://github.com/prolajumokeoni/laptop_scraper.git
 - Click on the code, copy and clone to your local machine
-- To run scraper ``` ruby main ``` (file name) in your terminal
 
 ## Usage 
-- Type ```ruby bin/main`` in terminal to see information of laptop scrapped from the website
+- Type ```ruby bin/main``` in terminal to see information of laptop scrapped from the website
 
 ### Prerequsites
 - For local usage, ensure you have ruby installed
