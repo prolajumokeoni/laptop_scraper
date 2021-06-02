@@ -22,7 +22,8 @@ class Laptop
     stars.map(&:text)
   end
 
-  private 
+  private
+
   def laptop_name
     parse_page.css('.name')
   end
