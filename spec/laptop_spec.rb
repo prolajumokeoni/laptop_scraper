@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/laptop'
 describe Laptop do
   describe '#name' do
@@ -7,7 +9,7 @@ describe Laptop do
   end
 
   describe '#price' do
-    it 'returns prices of each laptop' do
+    it 'returns prices of laptops' do
       expect(subject.price.size).not_to be_nil
     end
   end
