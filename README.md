@@ -1,15 +1,20 @@
 # laptop_scraper
-A scraper developed in Ruby. 
-Built a scrapper to extract information of laptops; specs prices & reviews from [jumia,](https://www.jumia.com.ng/laptops/) an online shopping site.
+A scraper developed in Ruby, built to extract information of laptops; specs, prices & reviews from [jumia,](https://www.jumia.com.ng/laptops/) an online shopping site.
+
+
+## Installations
+- Ruby
+- code-editor
+
+## Install
+- On the terminal and in the laptop_scraper directory
+
+- Run the bundle install command to install all the gems in the Gemfile
 
 ## Gems 
 - HTTParty
 - Nokogiri
 - rspec
-
-## Installations
-- Ruby
-- code-editor
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
@@ -17,14 +22,14 @@ To get a local copy up and running follow these simple example steps:
 - Click on the code, copy and clone to your local machine
 
 ## Usage 
-- Type ```ruby bin/main``` in terminal to see information of laptop scrapped from the website
+- Type ```ruby bin/main``` in terminal to see list of laptop scrapped from the website
 
 ### Prerequsites
 - For local usage, ensure you have ruby installed
 
 # Tests
 This scraper uses Rspec Rspec To run the tests:
-In your terminal, run ```rspec --init``` and ```rspec``` to see if if all tests pass
+In your terminal, run ```rspec --init``` and ```rspec``` to see test results
 
 
 
