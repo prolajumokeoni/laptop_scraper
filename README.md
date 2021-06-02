@@ -20,8 +20,8 @@ A scraper developed in Ruby, built to extract information of laptops; specs, pri
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
-- Go to https://github.com/prolajumokeoni/laptop_scraper.git
-- Click on the code, copy and clone to your local machine
+- Click [here](https://github.com/prolajumokeoni/laptop_scraper.git)
+- Copy and clone to your local machine
 
 ## Usage 
 - Type ```ruby bin/main``` in terminal to see list of laptop scrapped from the website
@@ -30,8 +30,8 @@ To get a local copy up and running follow these simple example steps:
 - For local usage, ensure you have ruby installed
 
 # Tests
-This scraper uses Rspec To run the tests:
-In your terminal, run ```rspec --init``` and ```rspec``` to see test results
+- This scraper uses Rspec To run the tests:
+- In your terminal, run ```rspec --init``` and ```rspec``` to see test results
 
 
 

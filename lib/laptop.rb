@@ -23,7 +23,6 @@ class Laptop
   end
 
   private 
-
   def laptop_name
     parse_page.css('.name')
   end
