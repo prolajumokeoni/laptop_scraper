@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps:
 - For local usage, ensure you have ruby installed
 
 # Tests
-This scraper uses Rspec To run the tests:
+This scraper uses Rspec Rspec To run the tests:
 In your terminal, run ```rspec --init``` and ```rspec``` to see test results
 
 
