@@ -11,14 +11,28 @@ class Laptop
   end
 
   def name
-    parse_page.css('.name').children.map(&:text).compact
+    laptop_name.map(&:text)
   end
 
   def price
-    parse_page.css('.prc').children.map(&:text).compact
+    laptop_price.map(&:text)
   end
 
   def review
-    parse_page.css('.rev').children.map(&:text).compact
+    stars.map(&:text)
+  end
+
+  private 
+
+  def laptop_name
+    parse_page.css('.name')
+  end
+
+  def laptop_price
+    parse_page.css('.prc')
+  end
+
+  def stars
+    parse_page.css('.rev')
   end
 end
