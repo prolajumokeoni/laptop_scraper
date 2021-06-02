@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative '../lib/laptop'
 describe Laptop do
   describe '#name' do
