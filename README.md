@@ -5,6 +5,8 @@ A scraper developed in Ruby, built to extract information of laptops; specs, pri
 ## Installations
 - Ruby
 - code-editor
+## Screenshot
+![Screenshot from 2021-06-02 05-41-59](https://user-images.githubusercontent.com/69638013/120424971-516ad080-c365-11eb-8bf8-0ed855f05952.png)
 
 ## Install
 - On the terminal and in the laptop_scraper directory
